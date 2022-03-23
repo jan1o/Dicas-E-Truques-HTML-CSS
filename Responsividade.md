@@ -25,3 +25,9 @@ Além disso adicione também o seguinte marcador (esse é um pouco diferente, ad
 ~~~CSS
 @-ms-viewport{ width: device-width; }
 ~~~
+
+# Medidas de tamanho
+
+Algumas medidas do css, como pixels, são interessantes quando se está desenvolvendo algo que pode ser fixo, mas elas não se adequam a sites responsivos. Para elementos
+como imagens, divs, alguns botões e coisas como quadros (uma div com bordas e conteúdo interno) é mais interessante usar a medida vw para width e vh para height pois elas estão relacionadas diretamente ao tamanho da tela (vw = viewport width; vh = viewport height). Pode ser interessante também colocar um max-width/max-height ou 
+min-width/min-height para evitar distorção, como acontece bastante em imagens.
