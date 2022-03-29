@@ -35,7 +35,7 @@ min-width/min-height para evitar distorção, como acontece bastante em imagens.
 
 Existe uma técnica interessante para fontes que é voce definir o tamanho do root para 62.5%:
 
-~~~~CSS
+~~~CSS
 html { font-size: 62.5% }
 ~~~
 
