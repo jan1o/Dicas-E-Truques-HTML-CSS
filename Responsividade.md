@@ -46,7 +46,7 @@ Dessa forma, sempre que voce for colocar o tamanho de uma fonte é só colocar c
 uma dica interessante é ajustar seu código css para que caso o usuário esteja em uma tela muito grande (como uma televisão) as coisas não fiquem gigantescas e desproporcionais. Para isso devemos definir algumas caracteristicas ao main do projeto:
 
 ~~~CSS
-main {
+html {
   max-width: 1200px;
   margin: auto;
 }
