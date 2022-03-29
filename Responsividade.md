@@ -50,5 +50,6 @@ main {
   max-width: 1200px;
   margin: auto;
 }
+~~~
 
 Assim o conteúdo vai ter no máximo 1200 px!
